@@ -1,0 +1,19 @@
+# Please make sure to update the license_key information with the license key for your New Relic
+# account.
+#
+#
+newrelic:
+  #
+  # Update with your New Relic account license key:
+  #
+  license_key: 'YOUR_LICENSE_KEY_HERE'
+
+#
+# Agent Configuration:
+#
+agents:
+  gitlab:
+
+    # Your JSON health check URL here
+    # Example: https://gitlab.hostedcgi.com/health_check.json?token=ACCESS_TOKEN
+    health_check_url: "JSON_HEALTH_CHECK_URL_HERE"
